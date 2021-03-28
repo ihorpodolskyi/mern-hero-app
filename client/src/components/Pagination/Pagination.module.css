@@ -1,0 +1,25 @@
+.paginationMenu {
+  position: fixed;
+  bottom: 60px;
+}
+
+.paginationList {
+  list-style: none;
+  display: flex;
+}
+
+.paginationItem {
+  border: 1px solid #000;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.paginationItem:hover {
+  box-shadow: 0 0 15px #ff0000;
+}

@@ -1,0 +1,52 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardHero {
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #666666;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  text-align: center;
+}
+
+.cardHero:hover {
+  box-shadow: 0 0 15px #ff0000;
+}
+
+.cardHero > p {
+  margin: 5px;
+}
+
+.heroTitle,
+.heroSubtitle {
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 30px;
+  margin: 0 10px 10px;
+}
+
+.heroImgBox,
+.btnBox {
+  text-align: center;
+}
+
+.heroImg {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 0 20px 0;
+}
+
+.btb {
+  height: 25px;
+  width: 110px;
+  cursor: pointer;
+}
