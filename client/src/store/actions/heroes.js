@@ -12,7 +12,6 @@ export const getHeroes = () => async (dispatch) => {
 };
 
 export const getHero = (id) => async (dispatch) => {
-  console.log(id);
   try {
     const { data } = await api.fetchHero(id);
     dispatch({ type: FETCH_ONE, payload: data });
